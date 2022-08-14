@@ -41,3 +41,7 @@ def shuffle(deck):
 shuffle(deck)
 def draw(deck):
     return deck.pop()
+
+if __name__ == "__main__":
+    x = list(suits.values())
+    print(x)
